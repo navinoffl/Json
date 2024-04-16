@@ -1,0 +1,15 @@
+import requests
+import json
+
+# Make a request to a web API that returns JSON data
+response = requests.get('https://api.example.com/data')
+
+# Convert the response to a Python dictionary
+
+data = json.loads(response.text)
+
+# Print the data
+print(data)
+
+# Output:
+# This will vary depending on the API and the data it returns
