@@ -1,0 +1,27 @@
+import json
+
+# JSON string
+smartphone_json = '{"name": "IPhone12", "colors": ["black", "white", "red", "blue"], "price": 999.99, "inStock": true}'
+# from JSON string to Python dict
+smartphone_dict = json.loads(smartphone_json)
+
+#print(type(smartphone_json))
+
+# verify the type of the resulting variable
+#print(type(smartphone_dict)) # dict
+
+product = smartphone_dict['name']
+print (product)
+
+priced = smartphone_dict['colors'][1]
+print (priced)
+
+cost = smartphone_dict['price']
+print (cost)
+
+stock_item=smartphone_dict['inStock']
+print (stock_item)
+
+
+
+
