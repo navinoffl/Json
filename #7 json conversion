@@ -1,0 +1,19 @@
+#7 json conversion
+
+import json
+
+employee_string = {"first_name": "Michael", "last_name": "Rodgers", "department": "Marketing"}
+
+json_object = json.dumps(employee_string)
+
+print (json_object)
+print(type(employee_string))
+print(type(json_object))
+a=json.loads(json_object)
+print (type(a))
+
+
+#{"first_name": "Michael", "last_name": "Rodgers", "department": "Marketing"}
+#<class 'dict'>
+#<class 'str'>
+#<class 'dict'>
