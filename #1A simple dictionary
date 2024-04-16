@@ -1,0 +1,15 @@
+import json
+
+# A simple dictionary
+
+data = {'name': 'John', 'age': 30}
+
+# Convert the dictionary to JSON format
+json_data = json.dumps(data)
+
+print(json_data)
+
+# Output:
+# '{"name": "John", "age": 30}'
+
+
