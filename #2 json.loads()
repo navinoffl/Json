@@ -1,6 +1,7 @@
-import json
-
 # A JSON formatted string
+#On the flip side, the ‘json.loads()’ function is used to convert a JSON formatted string into a Python object. Here’s how it works:
+
+import json
 json_data = '{"name": "John", "age": 30}'
 
 # Convert the JSON string to a Python dictionary
