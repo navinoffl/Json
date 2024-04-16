@@ -1,0 +1,18 @@
+
+import json
+
+def extract_key_value(json_data, key):
+    """Extracts a specific key-value pair from a JSON data"""
+    data = json.loads(json_data)
+    value = data.get(key)
+    return value
+
+
+# Example JSON data
+json_data = '{"name": "John Doe", "age": 35, "city": "New York"}'
+
+# Extract the value associated with the "age" key
+age = extract_key_value(json_data, "age")
+
+# Print the result
+print(" the age is", age) # Output: 35
