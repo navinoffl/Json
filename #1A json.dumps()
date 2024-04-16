@@ -1,7 +1,7 @@
-import json
-
 # A simple dictionary
+#The ‘json.dumps()’ function takes a Python object as input and converts it into a JSON formatted string. Here’s a simple example:
 
+import json
 data = {'name': 'John', 'age': 30}
 
 # Convert the dictionary to JSON format
