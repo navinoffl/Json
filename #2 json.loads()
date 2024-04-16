@@ -1,0 +1,13 @@
+import json
+
+# A JSON formatted string
+json_data = '{"name": "John", "age": 30}'
+
+# Convert the JSON string to a Python dictionary
+
+data = json.loads(json_data)
+
+print(data)
+
+# Output:
+# {'name': 'John', 'age': 30}
